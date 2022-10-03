@@ -5,7 +5,7 @@
   font-family: "Trebuchet MS", Arial, sans-serif;
 }
 
-.game-container {
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,30 +13,8 @@
   height: 100vh;
 }
 
-.game-grid {
-  display: inline-block;
-  background-color: dodgerblue;
-  padding: 10px;
-}
-
-.game-grid div {
-  overflow: hidden;
-}
-
-.game-grid button {
-  width: 100px;
-  height: 100px;
-  font-weight: bold;
-  font-size: 50px;
-  margin: 5px;
-  float: left;
-}
-
-.game-status {
-  color: white;
-  background: dodgerblue;
-  padding: 10px;
-  text-align: center;
-  font-size: 1.5rem;
-  margin-top: 10px;
+.color-box {
+  background-color: white;
+  height : 100px;
+  width : 100px;
 }
