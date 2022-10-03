@@ -15,10 +15,15 @@
 
 .color-box {
   background-color: white;
-  height : 100px;
-  width : 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.color-box:hover {
+  cursor: pointer;
 }
 
 .color-resultat {
-    background-color: azure;
+  background-color: azure;
+  font-size: 1.6rem;
 }
